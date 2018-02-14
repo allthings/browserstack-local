@@ -4,8 +4,6 @@
 
 FROM debian:jessie
 
-MAINTAINER Allthings Developers <dev@allthings.me>
-
 RUN export DEBIAN_FRONTEND=noninteractive \
   && apt-get update && apt-get install \
     --no-install-recommends --no-install-suggests -y \
